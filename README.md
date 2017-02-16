@@ -21,15 +21,13 @@ This data is from the State of Iowa- Road Weather Information System’s archive
 <b>iii. Iowa Environmental Mesonet (https://mesonet.agron.iastate.edu/request/rwis/traffic.phtml)</b><br>
 This data is based on the State of Iowa’s Historic Traffic Data and is extracted from Iowa Environmental Mesonet (IEM). It includes data for average speed, average headway, occupancy, and other traffic related features.
 
-<h2> Machine Learning Models</h2>
+<h2>Result</h2>
 Machine Learning techniques used are: Linear Regression, Zero Inflated Bionomial Regression, and Random Forest.
 We found the best method for prediction was the Random Forest method with a combination of down-sampling of majority class and up sampling of minority class to balance the three categories of prediction: No Crash (0), One Crash (1), and More than one Crash (2).
 
-<h2>Result</h2>
+<img src="https://github.com/gaurav-shahane/Vehicular-Crash-Prediction-using-Machine-Learning/raw/master/images/result_randomForest_upDOwn.png" height=60% width=60%> <br><b>Fig. Confusion Matrix for Random Forest</b>
 
-<img src="https://github.com/gaurav-shahane/Vehicular-Crash-Prediction-using-Machine-Learning/raw/master/images/result_randomForest_upDOwn.png"> <br><b>Fig. Confusion Matrix for Random Forest</b>
-
-As seen from the above confusion matrix, the model was able to predict the crash occurrences with an accuracy of approximately 68%. It was also observed that over 20% of the records were incorrectly predicted as crash occurrences (False positives). This however, was acceptable as it makes the model only more stringent in predicting crashes more accurately.
+As seen from the above confusion matrix, the model was able to predict the crash occurrence of 1 Crash (1) with an accuracy of approximately 68%. It was also observed that over 20% of the records were incorrectly predicted as crash occurrences (False positives). This however, was acceptable as it makes the model only more stringent in predicting crashes more accurately.
 
 <h2>Conclusion</h2>
 Radom Forest model predicts vehicular crashes with approximately 65% accuracy using Weather and Traffic Data available with the State of Iowa. The accuracy of the models can also be increased by including the data for previous years previous to 2015. With increase in prediction accuracy, as a potential use case, the developed models can be used with the real time Road Weather Information System data to predict the vehicular crash occurrences in real time. This will help Highway Authorities in taking precautionary actions towards avoiding crashes, and also caution the drivers to be more careful, and thereby making roads safer for everyone.
