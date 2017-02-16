@@ -23,7 +23,7 @@ This data is based on the State of Iowa’s Historic Traffic Data and is extract
 
 <h2>Result</h2>
 Machine Learning techniques used are: Linear Regression, Zero Inflated Bionomial Regression, and Random Forest.
-We found the best method for prediction was the Random Forest method with a combination of down-sampling of majority class and up sampling of minority class to balance the three categories of prediction: No Crash (0), One Crash (1), and More than one Crash (2).
+We found the best method for prediction was the Random Forest method with a combination of down-sampling of majority class and up sampling of minority class to balance the three categories of prediction: No Crash (0), 1 Crash (1), and 1+ Crashes (2).
 
 <img src="https://github.com/gaurav-shahane/Vehicular-Crash-Prediction-using-Machine-Learning/raw/master/images/result_randomForest_upDOwn.png" height=60% width=60%> <br><b>Fig. Confusion Matrix for Random Forest</b>
 
