@@ -27,6 +27,7 @@ We found Random Forest method with down-sampling of majority class works the bes
 
 <h2>Result</h2>
 
-<img href="https://github.com/gaurav-shahane/INFM750-DataToInsights/raw/master/images/result_randomForest.PNG">Result of Random Forest</img>
+<img src="https://github.com/gaurav-shahane/INFM750-DataToInsights/raw/master/images/result_randomForest.PNG" alt ="Confusion Matrix for Random Forest" height="42" width="42">
+Fig. Confusion Matrix for Random Forest
 
 As seen from the above confusionmatrix, the model was able to predict with predict crash occurrences with an accuracy of over 65%. It was observed that over 20% of the records were incorrectly predicted as crash occurrences (False positives). This however, was acceptable as it makes the model only more stringent.
